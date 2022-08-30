@@ -27531,7 +27531,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     }),
     Lz = (e = []) =>
       e.map((t) => ((t.end = fh(t.end)), (t.start = fh(t.start)), t)),
-    Iz = () => ({ VITE_API_URL: "https://mern-calendar-li.herokuapp.com/api" }),
+    Iz = () => ({ VITE_API_URL: "https://calendary-mern.herokuapp.com/auth/login" }),
     Fz = () => ({
       allDay: "Todo el d\xEDa",
       previous: "<",
